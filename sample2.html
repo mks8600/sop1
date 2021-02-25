@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>page1</title>
+<script language="javascript">
+function f1()
+{
+document.body.style.backgroundColor="Violet";
+window.setTimeout("f2()",1000);
+}
+function f2()
+{
+document.body.style.backgroundColor="Indigo";
+window.setTimeout("f3()",1000);
+}
+function f3()
+{
+document.body.style.backgroundColor="Red";
+window.setTimeout("f4()",1000);
+}
+function f4()
+{
+document.body.style.backgroundColor="Khaki";
+window.setTimeout("f5()",1000);
+}function f5()
+{
+document.body.style.backgroundColor="Pink";
+window.setTimeout("f6()",1000);
+}
+function f6()
+{
+document.body.style.backgroundColor="Cyan";
+window.setTimeout("f7()",1000);
+    }
+function f7()
+{
+document.body.style.backgroundColor="Blue";
+}
+function Message()
+{
+window.status="hello";
+}
+</script></head>
+<body>
+<h1 align="center"> 7 Different and visibly distinct colours</h1>
+<form><CENTER>
+<input type="button"  value="Change colours" onMouseOver=f1()>
+<input type="button"  value="Message display" onClick=Message()></CENTER></form>
+</body>
+</html>
